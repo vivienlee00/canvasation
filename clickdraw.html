@@ -8,11 +8,15 @@
   <style>
    canvas{border: 1px solid black;}
   </style>
-  <canvas id="slate" onclick="drawShape(event)">
+  <canvas id="slate" onclick="drawShape(event)" height="600" width="600">
   </canvas>
 
   <button onclick="toggle()">Toggle</button>
   <button onclick="clr()">Clear</button>
+  <button onclick="offset()">Change offset</button>
+
+  <p id="shape">Square</p>
+  <p id="takeoff">Screen</p>
 
 </body>
 
